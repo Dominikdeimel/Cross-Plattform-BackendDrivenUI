@@ -1,0 +1,129 @@
+{
+  "id": "c1",
+  "type": "COLUMN",
+  "children": [
+    {
+      "id": "t1",
+      "type": "TEXT",
+      "modifier": [
+        {
+          "type": "FOREGROUND_COLOR",
+          "color": "BLUE"
+        },
+        {
+          "type": "FONTSIZE",
+          "fontSize": 30
+        },
+        {
+          "type": "BORDER",
+          "color": "RED",
+          "borderWidth": 2
+        },
+        {
+          "type": "BACKGROUND_COLOR",
+          "color": "YELLOW"
+        }
+      ],
+      "text": "Hello Column!"
+    },
+    {
+      "id": "t2",
+      "type": "TEXT",
+      "modifier" : [{
+        "type": "FOREGROUND_COLOR",
+        "color": "RED"
+      },
+        {
+          "type": "FONTSTYLE",
+          "fontStyle": "BOLD"
+        }],
+      "text": "Hello Column!"
+    },
+    {
+      "id": "l1",
+      "type": "LABEL",
+      "modifier" : [{
+        "type": "FOREGROUND_COLOR",
+        "color": "GREEN"
+      }],
+      "text": "Cool Label",
+      "icon": "heart.fill"
+    },
+    {
+      "id": "r1",
+      "type": "ROW",
+      "children": [
+        {
+          "id": "t4",
+          "type": "TEXT",
+          "modifier" : [{
+            "type": "FOREGROUND_COLOR",
+            "color": "YELLOW"
+          },
+            {
+              "type": "FONTSTYLE",
+              "fontStyle": "ITALIC"
+            }],
+          "text": "Hello Row!"
+        },
+        {
+          "id": "s1",
+          "type": "SPACER"
+        },
+        {
+          "id": "t3",
+          "type": "TEXT",
+          "modifier" : [{
+            "type": "FOREGROUND_COLOR",
+            "color": "RED"
+          },
+            {
+              "type": "FONTSTYLE",
+              "fontStyle": "UNDERLINE"
+            }],
+          "text": "Hello Row!"
+        }
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "IMAGE",
+      "modifier" : [
+        {
+          "type": "SHAPE",
+          "shape": "CIRCLE",
+          "stroke": 3,
+          "color": "YELLOW"
+        },
+        {
+          "type": "SHADOW",
+          "color": "BLACK"
+        },{
+          "type": "SIZE",
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "imagePath": "DefaultImage"
+    },
+    {
+      "id": "ti1",
+      "type": "TEXT_INPUT",
+      "modifier": [{
+        "type": "PADDING"
+      }],
+      "text": "Input text here"
+    },
+    {
+      "id": "sl1",
+      "type": "SLIDER",
+      "rangeStart": 0,
+      "rangeEnd": 18
+    },
+    {
+      "id": "sw1",
+      "type": "SWITCH",
+      "text": "Switch1"
+    }
+  ]
+}
